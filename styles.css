@@ -1,0 +1,84 @@
+html *
+{
+   font-family: 'Comic Neue' !important;
+}
+
+.title {
+  font-weight: 700;
+  margin: 10px;
+}
+
+.divMap {
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+}
+
+.divGeneral {
+  width: 400px;
+  height: 35%;
+  background-color: rgba(255, 255, 255, 1);
+  position: relative;
+  border: 5px black;
+  margin: 10px;
+  padding: 10px;
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+  transition: 0.3s;
+  border-radius: 12px;
+}
+
+#divInptCoordinates {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#divDescription {
+  display: flex;
+}
+
+.icon {
+  padding: 5px;
+  min-width: 20px;
+}
+
+#ipt_geocoding {
+  width: 60%;
+  padding: 10px;
+  text-align: center;
+  flex: 1;
+  border-radius: 25px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+#divCoordinates {
+  margin: 10px;
+}
+
+.iptCoordinates {
+  width: 35%;
+  padding: 5px;
+  text-align: center;
+  flex: 1;
+  border-radius: 25px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#search {
+  background: rgba(79, 182, 159, .40) url('./icons/search.svg') 5px no-repeat;
+  /* Blue background */
+  border-radius: 12px;
+  width: 35px;
+  height: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
